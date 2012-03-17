@@ -10,16 +10,17 @@ How to setup the project:
 Please setup the whole [Bancha Test Project](https://github.com/Bancha/BanchaTestProject), it already includes this project.
 
 
-
 For more information go to [banchaproject.org](http://banchaproject.org) 
 
 Updates via Twitter [@banchaproject](http://twitter.com/#!/banchaproject)
 
 -------------------------
 
-_This package is not for production use. It includes multiple licences, 
-everything works under GNU General Public License version 3 as far as we 
-know, some parts also under MIT Licence._
+The Sencha Touch getting_started example was used as base, therefore this 
+project is licensed under the GNU GENERAL PUBLIC LICENSE.
+
+This excludes all images in the project! Images are copyrighted and can not
+be used without an explicit approvement.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
