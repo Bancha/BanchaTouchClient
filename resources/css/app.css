@@ -1,0 +1,36 @@
+/*!
+ *
+ * Bancha Project : Combining Ext JS and CakePHP (http://banchaproject.org)
+ * Copyright 2011-2012 Roland Schuetz
+ *
+ * Licensed under GNU GENERAL PUBLIC LICENSE
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @package       Bancha.Touch
+ * @copyright     Copyright 2011-2012 Roland Schuetz
+ * @link          http://banchaproject.org Bancha Project
+ * @since         Bancha v 0.9.4
+ * @license       GNU GENERAL PUBLIC LICENSE
+ * @author        Roland Schuetz <mail@rolandschuetz.at>
+ *
+ * For more information go to http://banchaproject.org 
+ */
+
+html, body {
+    font-family: "Droid Serif";
+}
+ 
+/* stlye the home screen */
+.home {
+    text-align: center;
+}
+.home img {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.home p {
+    color: #666;
+    font-size: 0.8em;
+    line-height: 1.6em;
+    margin: 10px 20px 20px 20px;
+}
