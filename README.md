@@ -1,16 +1,19 @@
+[![Bancha logo](http://docs.banchaproject.com/wiki/images/github-logo.png)](http://banchaproject.com)
+
 Bancha Touch Client
 =============================
 
-This Project used the [Bancha Test Project](https://github.com/Bancha/BanchaTestProject) as backend and provides a Sencha Touch 2 client for mobile devices.
+This Project uses the [Bancha Test Project](https://github.com/Bancha/BanchaTestProject) as backend and provides a Sencha Touch 2 client for mobile devices.
 This sample shows how to retrieve and submit data to a CakePHP Application using Bancha.
 
+[Live demo](http://samples.banchaproject.com/touch)
 
 How to setup the project:
 ---------------------
-Please setup the whole [Bancha Test Project](https://github.com/Bancha/BanchaTestProject), it already includes this project.
+Please setup the whole [Bancha Test Project](https://github.com/Bancha/BanchaTestProject), it includes this project as submodule.
 
 
-For more information go to [banchaproject.org](http://banchaproject.org) 
+For more information go to [banchaproject.com](http://banchaproject.com) 
 
 Updates via Twitter [@banchaproject](http://twitter.com/#!/banchaproject)
 
