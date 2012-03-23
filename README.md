@@ -13,9 +13,13 @@ How to setup the project:
 Please setup the whole [Bancha Test Project](https://github.com/Bancha/BanchaTestProject), it includes this project as submodule.
 
 
-For more information go to [banchaproject.com](http://banchaproject.com) 
+---
 
-Updates via Twitter [@banchaproject](http://twitter.com/#!/banchaproject)
+More information:
+-----------------
+
+*   [Bancha Overview](http://banchaproject.com/)
+*   [Updates on Twitter](http://twitter.com/#!/banchaproject)
 
 -------------------------
 
