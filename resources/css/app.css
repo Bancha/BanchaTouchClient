@@ -25,7 +25,7 @@ html, body {
     text-align: center;
 }
 .home img {
-    margin-top: 60px;
+    margin-top: 35px;
     margin-bottom: 10px;
 }
 .home p {
@@ -33,4 +33,13 @@ html, body {
     font-size: 0.8em;
     line-height: 1.6em;
     margin: 10px 20px 20px 20px;
+}
+
+
+/* for bigger apps */
+.big-screen .home img {
+    margin-top: 80px;
+}
+.big-screen .controller {
+	padding-top: 40px;
 }

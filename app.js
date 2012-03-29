@@ -79,7 +79,7 @@ Ext.application({
                             ].join(''));
                             
                             return function(record, btn, index) {
-                                Ext.Msg.alert('Additioanl Information',tpl.apply(record.data),Ext.emptyFn);
+                                Ext.Msg.alert('Additional Information',tpl.apply(record.data),Ext.emptyFn);
                             };
                         }()),
                         detailCard: {
@@ -94,12 +94,13 @@ Ext.application({
                         xtype: 'formpanel',
                         title: 'Controller',
                         iconCls: 'user',
+                        cls: 'controller',
                         layout: 'vbox',
 
                         items: [
                             {
                                 xtype: 'fieldset',
-                                title: 'Exposed Remote Method Example',
+                                title: 'Exposed Remote Method',
                                 instructions: [
                                     'Just type in a name and get the appropriate greeting for the current day time.',
                                     'If your name is Judas the server will return with an unsucessfull response.'
@@ -145,7 +146,16 @@ Ext.application({
                             }
                         ]
                     }
-                ]
+                ],
+                listeners: {
+                	painted: function() {
+           				
+                		// if on the homescreen we have more space
+                		if(Ext.Viewport.getWindowHeight() > 450) {
+                			Ext.Viewport.addCls('big-screen');
+                		}
+                	}
+                }
             });
         }); //eo onModelReady
     }
