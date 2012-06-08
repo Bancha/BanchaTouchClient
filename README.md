@@ -8,15 +8,14 @@ This sample shows how to retrieve and submit data to a CakePHP Application using
 
 [Live demo](http://samples.banchaproject.com/touch)
 
-How to setup the project:
----------------------
+How to setup the project
+------------------------
 Please setup the whole [Bancha Test Project](https://github.com/Bancha/BanchaTestProject), it includes this project as submodule.
 
 
----
 
-More information:
------------------
+More information
+----------------
 
 *   [Bancha Overview](http://banchaproject.com/)
 *   [Updates on Twitter](http://twitter.com/#!/banchaproject)
