@@ -146,6 +146,19 @@ Ext.application({
                                 }
                             }
                         ]
+                    },
+                    // This is the home page, just some simple html
+                    {
+                        title: 'About Bancha',
+                        iconCls: 'info',
+                        cls: 'info',
+                        scrollable: true,
+                        html: [
+                            '<img height="85" src="http://banchaproject.org//tl_files/Bancha/images/logo.png" />',
+                            '<p style="height:85px; padding-top:20px;">Bancha makes creating Apps with a CakePHP backend beautifull and easy.</p>',
+                            '<p><br />The code can be found <a href="https://github.com/Bancha/BanchaTouchClient" target="_blank">on GitHub</a>.</p>',
+                            '<p>For more information go to <a href="http://banchaproject.org" target="_blank">banchaproject.org</a></p>'
+                        ].join("")
                     }
                 ],
                 listeners: {
