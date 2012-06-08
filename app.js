@@ -15,12 +15,13 @@
  *
  * For more information go to http://banchaproject.org
  */
-/*jslint browser: true, vars: false, plusplus: true, white: true, sloppy: true */
+/*jslint browser: true, vars: true, undef: true, nomen: true, eqeq: false, plusplus: true, bitwise: true, regexp: true, newcap: true, sloppy: true, white: true */
+/*jshint bitwise:true, curly:true, eqeqeq:true, forin:true, immed:true, latedef:true, newcap:true, noarg:true, noempty:true, regexp:true, undef:true, trailing:true */
 /*global Ext, Bancha, window */
 
 
 /**
- * This is a simple Sencha Touch app, showing how to 
+ * This is a simple Sencha Touch app, showing how to
  * retrieve & submit data from CakePHP using Bancha Project.
  */
 Ext.application({
@@ -36,7 +37,7 @@ Ext.application({
         
         /*
          * At first we tell Bancha to load all model definitions for "User" from the server
-         * As soon as these are loaded, Bancha will define the model and then execute the 
+         * As soon as these are loaded, Bancha will define the model and then execute the
          * callback to create all tab panels
          */
         Bancha.onModelReady('User',function() {
@@ -75,7 +76,7 @@ Ext.application({
                             var tpl = new Ext.XTemplate([
                                 'Name: {name}<br/>',
                                 'E-Mail: {email}<br/>',
-                                'Height: {height}cm<br/>',
+                                'Height: {height}cm<br/>'
                             ].join(''));
                             
                             return function(record, btn, index) {
@@ -86,7 +87,7 @@ Ext.application({
                             xtype: 'panel',
                             scrollable: true,
                             styleHtmlContent: true
-                        },
+                        }
                     },
                     
                     // This is the contact page, which features a form and a button. The button submits the form
@@ -112,7 +113,7 @@ Ext.application({
                                         label: 'Name',
                                         name: 'name',
                                         require: true
-                                    },
+                                    }
                                 ]
                             },
                             {
@@ -133,7 +134,7 @@ Ext.application({
                                             // this is the result callback
                                             if(result.success) {
                                                 Ext.Msg.alert("Greetings",result.data);
-                                            } else {    
+                                            } else {
                                                 Ext.Msg.alert("Error","The server does not want to talk to you.");
                                             }
                                         });
@@ -148,13 +149,12 @@ Ext.application({
                     }
                 ],
                 listeners: {
-                	painted: function() {
-           				
-                		// if on the homescreen we have more space
-                		if(Ext.Viewport.getWindowHeight() > 450) {
-                			Ext.Viewport.addCls('big-screen');
-                		}
-                	}
+                    painted: function() {
+                        // if on the homescreen we have more space
+                        if(Ext.Viewport.getWindowHeight() > 450) {
+                            Ext.Viewport.addCls('big-screen');
+                        }
+                    }
                 }
             });
         }); //eo onModelReady
