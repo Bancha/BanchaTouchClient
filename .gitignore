@@ -4,4 +4,17 @@ sencha-touch/sencha-touch.js
 sencha-touch/sencha-touch-debug.js
 sencha-touch/sencha-touch-all-debug.js
 sencha-touch/sencha-touch-all.js
+sencha-touch/builds
+sencha-touch/command
+sencha-touch/docs
+sencha-touch/examples
+sencha-touch/microloader
+sencha-touch/pkgs
 sencha-touch/resources
+sencha-touch/src
+sencha-touch/getting-started.html
+sencha-touch/index.html
+sencha-touch/license.txt
+sencha-touch/release-notes.html
+sencha-touch/touch.jsb3
+sencha-touch/version.txt
