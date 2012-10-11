@@ -17,7 +17,7 @@
  */
 /*jslint browser: true, vars: true, undef: true, nomen: true, eqeq: false, plusplus: true, bitwise: true, regexp: true, newcap: true, sloppy: true, white: true */
 /*jshint bitwise:true, curly:true, eqeqeq:true, forin:true, immed:true, latedef:true, newcap:true, noarg:true, noempty:true, regexp:true, undef:true, trailing:true */
-/*global Ext, Bancha, window */
+/*global Ext, Bancha, window, alert */
 
 
 /**
@@ -35,6 +35,11 @@ Ext.application({
     
     launch: function() {
         
+        /* Warn if unsupported browser */
+        if(Ext.browser.is('firefox') || Ext.browser.is('IE')) {
+            alert('The Sencha Touch library doesn\'t support your current browser, please use Google Chrome or a smart phone instead.');
+        }
+
         /*
          * We don't recommand to use Bancha.onModelReady here anymore. Instead include the Bancha API with already
          * all necessary model defintions. For this application this can one of the following two options:
