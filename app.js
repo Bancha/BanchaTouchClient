@@ -1,15 +1,14 @@
 /*!
  *
- * Bancha Project : Seamlessly integrates CakePHP with Ext JS and Sencha Touch (http://banchaproject.org)
- * Copyright 2011-2013 codeQ e.U.
+ * Bancha : Seamlessly integrates CakePHP with Ext JS and Sencha Touch (http://bancha.io)
+ * Copyright 2011-2014 codeQ e.U.
  *
- * @package       Bancha.Touch
- * @copyright     Copyright 2011-2013 codeQ e.U.
- * @link          http://banchaproject.org Bancha Project
- * @since         Bancha v 0.9.4
+ * @package       BanchaTouchClient
+ * @copyright     Copyright 2011-2014 codeQ e.U.
+ * @link          http://bancha.io Bancha
  * @author        Roland Schuetz <mail@rolandschuetz.at>
  *
- * For more information go to http://banchaproject.org
+ * For more information go to http://bancha.io
  */
 
 // include Bancha
@@ -57,7 +56,7 @@ Ext.application({
                     cls: 'home',
                     scrollable: true,
                     html: [
-                        '<img height="173" src="http://banchaproject.org//tl_files/Bancha/images/logo.png" />',
+                        '<img height="173" src="http://bancha.io/tl_files/Bancha/images/logo.png" />',
                         '<p>This little App demonstrates how you can use Bancha with Sencha Touch 2</p>'
                     ].join('')
                 },
@@ -159,10 +158,10 @@ Ext.application({
                     cls: 'info',
                     scrollable: true,
                     html: [
-                        '<img height="85" src="http://banchaproject.org//tl_files/Bancha/images/logo.png" />',
+                        '<img height="85" src="http://bancha.io/tl_files/Bancha/images/logo.png" />',
                         '<p style="height:85px; padding-top:20px;">Bancha makes creating Apps with a CakePHP backend beautifull and easy.</p>',
                         '<p><br />The code can be found <a href="https://github.com/Bancha/BanchaTouchClient" target="_blank">on GitHub</a>.</p>',
-                        '<p>For more information go to <a href="http://banchaproject.org" target="_blank">banchaproject.org</a></p>'
+                        '<p>For more information go to <a href="http://bancha.io" target="_blank">bancha.io</a></p>'
                     ].join('')
                 }
             ],
